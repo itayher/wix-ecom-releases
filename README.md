@@ -5,16 +5,6 @@ No dashboards. No clicking around. Just tell Claude what you need.
 
 ---
 
-## 📥 Releases
-
-| Version | Date | Download |
-|---------|------|----------|
-| **v2.5.0** ⭐ Latest | 2026-03-05 | [wix-ecom-cowork-v2.5.0.zip](https://github.com/itayher/wix-ecom-releases/releases/download/v2.5.0/wix-ecom-cowork-v2.5.0.zip) |
-| v1.1.0 | 2026-02-23 | [Release page](https://github.com/itayher/wix-ecom-releases/releases/tag/v1.1.0) |
-| v1.0.1 | 2026-02-23 | [Release page](https://github.com/itayher/wix-ecom-releases/releases/tag/v1.0.1) |
-
----
-
 ## ⚡ Getting Started
 
 1. Download **[wix-ecom-cowork-v2.5.0.zip](https://github.com/itayher/wix-ecom-releases/releases/download/v2.5.0/wix-ecom-cowork-v2.5.0.zip)** to your computer
@@ -22,6 +12,12 @@ No dashboards. No clicking around. Just tell Claude what you need.
 3. Create your Wix API key at [manage.wix.com/account/api-keys](https://manage.wix.com/account/api-keys) and share it with Claude when prompted
 
 Once loaded, just start a conversation — Claude will know how to manage your store.
+
+---
+
+## 💬 What You Can Do
+
+Everything below is built into the plugin. Just describe what you need and Claude takes care of it.
 
 ---
 
