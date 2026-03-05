@@ -5,6 +5,16 @@ No dashboards. No clicking around. Just tell Claude what you need.
 
 ---
 
+## 📥 Releases
+
+| Version | Date | Download |
+|---------|------|----------|
+| **v2.5.0** ⭐ Latest | 2026-03-05 | [wix-ecom-cowork-v2.5.0.zip](https://github.com/itayher/wix-ecom-releases/releases/download/v2.5.0/wix-ecom-cowork-v2.5.0.zip) |
+| v1.1.0 | 2026-02-23 | [Release page](https://github.com/itayher/wix-ecom-releases/releases/tag/v1.1.0) |
+| v1.0.1 | 2026-02-23 | [Release page](https://github.com/itayher/wix-ecom-releases/releases/tag/v1.0.1) |
+
+---
+
 ## ⚡ Getting Started
 
 1. Download **[wix-ecom-cowork-v2.5.0.zip](https://github.com/itayher/wix-ecom-releases/releases/download/v2.5.0/wix-ecom-cowork-v2.5.0.zip)** to your computer
@@ -13,14 +23,15 @@ No dashboards. No clicking around. Just tell Claude what you need.
 
 Once loaded, just start a conversation — Claude will know how to manage your store.
 
-**Example:**
-> *"Show me my orders from today"*
-> *"I need a discount recommendation to boost sales"*
-> *"Create a Bestsellers category from my top 20 products"*
-
 ---
 
 ## 🤖 AI-Powered
+
+Upload a photo, describe what you need, and Claude handles the rest. No forms, no manual entry.
+
+> *"Create a product listing from this image"*
+> *"Auto-categorize all my uncategorized products"*
+> *"Create a Bestsellers category from my top 20 products by revenue"*
 
 - Create a product listing from a photo
 - Batch import products from an image folder
@@ -36,6 +47,12 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 ---
 
 ## 📦 Products
+
+Browse, create, and update your catalog without opening the dashboard.
+
+> *"Show me all products under $20"*
+> *"Update the price of my Yoga Mat to $35"*
+> *"Help me create a new product step by step"*
 
 - Search and filter products
 - Create a new product with all details
@@ -53,6 +70,12 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 
 ## 🗂️ Categories
 
+Organize your catalog and keep your store easy to browse.
+
+> *"List all my categories and how many products are in each"*
+> *"Add all tea products to my Beverages category"*
+> *"Create a Summer Sale category and fill it automatically"*
+
 - List all categories
 - Create, update, and delete categories
 - Add or remove products from a category
@@ -63,6 +86,12 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 ---
 
 ## 🛒 Orders
+
+Track, filter, and act on orders without clicking through the dashboard.
+
+> *"Show me my orders from today"*
+> *"Which orders are still unfulfilled?"*
+> *"Can I refund order #1042?"*
 
 - View recent orders and filter by status or date
 - Track fulfillment progress and add tracking numbers
@@ -79,6 +108,12 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 
 ## 👥 Customers
 
+Understand who your customers are and how to keep them coming back.
+
+> *"Who are my top 10 customers by lifetime value?"*
+> *"How many customers bought more than once this month?"*
+> *"Which customers haven't ordered in 60 days?"*
+
 - Identify one-time vs repeat customers
 - Calculate customer lifetime value (CLV)
 - Calculate customer acquisition cost (CAC)
@@ -91,6 +126,12 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 
 ## 💰 Discounts & Campaigns
 
+Claude asks Wix AI for data-driven recommendations — no guessing, no manual percentages.
+
+> *"I need a discount recommendation to boost sales"*
+> *"Create a clearance campaign for slow-moving inventory"*
+> *"Send an email campaign to my top customers with a special offer"*
+
 - Get AI-powered discount recommendations (via Wix AI — no guessing)
 - Create clearance campaigns
 - Create AOV booster campaigns
@@ -102,6 +143,12 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 
 ## 📊 Analytics
 
+Get a clear picture of your store's health without building reports.
+
+> *"Give me a business health summary for this month"*
+> *"What are my top 5 products by revenue?"*
+> *"How is my store doing compared to last month?"*
+
 - Full business intelligence dashboard (CLV, CAC, growth, health)
 - Revenue trends across all channels
 - Top products by units, revenue, and margin
@@ -111,6 +158,11 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 
 ## 💼 Tax, Shipping & Operations
 
+Configure the operational side of your store through conversation.
+
+> *"What tax groups do I have set up?"*
+> *"Show me my shipping zones"*
+
 - Configure tax groups and regions
 - Manage shipping zones and rates
 - Track fulfillment across providers
@@ -118,6 +170,11 @@ Once loaded, just start a conversation — Claude will know how to manage your s
 ---
 
 ## 🎫 Events & Bookings
+
+Track performance for services, appointments, and events.
+
+> *"How did my last event perform in ticket sales?"*
+> *"Show me this week's bookings"*
 
 - Track event ticket sales and revenue (gross & net after fees)
 - Manage guest lists and compare event performance
