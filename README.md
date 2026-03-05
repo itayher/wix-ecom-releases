@@ -8,9 +8,8 @@ No dashboards. No clicking around. Just tell Claude what you need.
 ## ⚡ Getting Started
 
 1. Download **[wix-ecom-cowork-v2.5.0.zip](https://github.com/itayher/wix-ecom-releases/releases/download/v2.5.0/wix-ecom-cowork-v2.5.0.zip)** to your computer
-2. Unzip it to a folder (e.g. `~/wix-ecom-cowork`)
-3. In **Claude Desktop Cowork**, go to **Settings → Plugins** and add the folder path
-4. Create your Wix API key at [manage.wix.com/account/api-keys](https://manage.wix.com/account/api-keys) and share it with Claude when prompted
+2. In **Claude Desktop Cowork**, go to **Settings → Plugins** and add the zip file
+3. Create your Wix API key at [manage.wix.com/account/api-keys](https://manage.wix.com/account/api-keys) and share it with Claude when prompted
 
 Once loaded, just start a conversation — Claude will know how to manage your store.
 
