@@ -1,0 +1,8 @@
+{
+  "name": "wix-ecom-cowork",
+  "version": "0.3.5",
+  "description": "Complete Wix eCommerce + Marketing + Events + CMS + Pipeline management for Claude Desktop Cowork — GraphQL-powered product management, AI-driven product creation, intelligent category management, performance-based categories, advanced order operations, comprehensive tax management, smart email campaign targeting with segments/labels, guided workflows, analytics, inventory, customer insights, event management with ticket sales and guest check-ins, CMS data collections CRUD, and Pipedrive-style Kanban pipeline with cart-to-customer tracking and audit trails. Includes 27 commands, 32 skills (+ plugin development guide), 2 agents.",
+  "author": {
+    "name": "Itay Herskovits"
+  }
+}

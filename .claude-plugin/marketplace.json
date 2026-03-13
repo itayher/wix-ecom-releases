@@ -1,0 +1,19 @@
+{
+  "name": "wix-ecom-cowork",
+  "owner": {
+    "name": "Itay Herskovits",
+    "email": "itay.herskovits@gmail.com"
+  },
+  "metadata": {
+    "description": "Wix eCommerce plugins for Claude Desktop — store management, desktop app builder, and more",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wix-ecom-cowork",
+      "source": "./plugins/wix-ecom-cowork",
+      "description": "Complete Wix eCommerce + Marketing + Events + CMS + Pipeline management — products, orders, inventory, analytics, events, CMS data collections, Kanban pipeline, desktop app builder, and 27 commands",
+      "version": "0.3.5"
+    }
+  ]
+}

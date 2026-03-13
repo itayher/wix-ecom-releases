@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✅ Wix App Installed Successfully!</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            max-width: 600px;
+            margin: 80px auto;
+            padding: 40px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+        }
+        .container {
+            background: white;
+            color: #333;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+        h1 {
+            color: #4CAF50;
+            margin-top: 0;
+            font-size: 32px;
+        }
+        .token-box {
+            background: #f5f5f5;
+            border: 2px solid #4CAF50;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            word-break: break-all;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+        }
+        .copy-btn {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 10px 0;
+            width: 100%;
+        }
+        .copy-btn:hover {
+            background: #45a049;
+        }
+        .copy-btn:active {
+            background: #3d8b40;
+        }
+        .steps {
+            background: #e3f2fd;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .steps h3 {
+            margin-top: 0;
+            color: #1976d2;
+        }
+        .steps ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .steps li {
+            margin: 8px 0;
+            line-height: 1.6;
+        }
+        .success-icon {
+            font-size: 48px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .copied-msg {
+            display: none;
+            color: #4CAF50;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success-icon">✅</div>
+        <h1>App Installed Successfully!</h1>
+        <p>Your Wix app has been installed. Here's your access token:</p>
+
+        <div class="token-box" id="tokenDisplay">Loading token...</div>
+
+        <button class="copy-btn" onclick="copyToken()">📋 Copy Access Token</button>
+        <div class="copied-msg" id="copiedMsg">✓ Token copied to clipboard!</div>
+
+        <div class="steps">
+            <h3>Next Steps:</h3>
+            <ol>
+                <li><strong>Copy the token above</strong> (click the button)</li>
+                <li><strong>Open Claude Desktop</strong></li>
+                <li><strong>Go to:</strong> Settings → Browse Plugins → Wix store optimizer</li>
+                <li><strong>Click "Customize"</strong></li>
+                <li><strong>Add:</strong>
+                    <br>• WIX_ACCESS_TOKEN = <em>(paste the token)</em>
+                    <br>• WIX_SITE_1_ID = <em>(your site ID)</em>
+                    <br>• WIX_SITE_1_NAME = <em>(your store name)</em>
+                </li>
+                <li><strong>Save and restart Claude Desktop</strong></li>
+                <li><strong>Say:</strong> "Show me my Wix sites"</li>
+            </ol>
+        </div>
+
+        <p style="margin-top: 30px; text-align: center; color: #666; font-size: 14px;">
+            You can close this window after copying the token.
+        </p>
+    </div>
+
+    <script>
+        // Extract token from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+
+        if (token) {
+            document.getElementById('tokenDisplay').textContent = token;
+        } else {
+            document.getElementById('tokenDisplay').textContent = 'No token found in URL';
+            document.getElementById('tokenDisplay').style.borderColor = '#f44336';
+        }
+
+        // Copy to clipboard
+        function copyToken() {
+            const token = document.getElementById('tokenDisplay').textContent;
+            navigator.clipboard.writeText(token).then(() => {
+                const msg = document.getElementById('copiedMsg');
+                msg.style.display = 'block';
+                setTimeout(() => {
+                    msg.style.display = 'none';
+                }, 3000);
+            });
+        }
+    </script>
+</body>
+</html>
